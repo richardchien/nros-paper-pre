@@ -10,37 +10,14 @@
   </div>
 </template>
 <style lang="postcss">
-.slidev-layout.cover {
-  .logo {
-    height: 3rem;
-    margin-left: auto;
+.slidev-layout.cover .logo {
+  height: 3rem;
+  margin-left: auto;
 
-    img {
-      height: 100%;
-      display: inline-block;
-      margin: 0 0.5rem;
-    }
-  }
-
-  .my-auto {
-    text-align: center;
-
-    h1 {
-      font-weight: bold;
-      color: #bf394b;
-      font-size: 2.6rem;
-      line-height: 1.3;
-    }
-
-    p {
-      font-size: 1.1rem;
-      line-height: 1.3;
-      opacity: 0.5;
-
-      &:first-of-type {
-        margin-top: 2rem;
-      }
-    }
+  img {
+    height: 100%;
+    display: inline-block;
+    margin: 0 0.5rem;
   }
 }
 </style>

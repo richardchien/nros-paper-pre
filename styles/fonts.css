@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.slidev-layout {
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.slidev-layout.cover,
+.slidev-layout .footnotes {
+  font-family: "Open Sans", sans-serif;
+}

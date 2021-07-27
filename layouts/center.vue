@@ -7,14 +7,12 @@
   </div>
 </template>
 <style lang="postcss">
-.slidev-layout.center {
-  .top-line {
-    position: fixed;
-    width: 100%;
-    height: 0.3rem;
-    left: 0;
-    top: 0;
-    background-color: #bf394b;
-  }
+.slidev-layout.center .top-line {
+  position: fixed;
+  width: 100%;
+  height: 0.3rem;
+  left: 0;
+  top: 0;
+  background-color: #bf394b;
 }
 </style>
