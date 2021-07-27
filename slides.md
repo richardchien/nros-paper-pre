@@ -65,7 +65,7 @@ layout: center
 [^1]: Black-box Concurrent Data Structures for NUMA Architectures. ASPLOS'17.
 
 ---
-layout: default-grid
+class: grid
 ---
 
 # Overview
