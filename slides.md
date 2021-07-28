@@ -69,7 +69,7 @@ layout: center
 
 # Overview
 
-<Center><img src="/figure/comparison.png" style="width: 100%;"></Center>
+<Center><img src="/figures/comparison.png" style="width: 100%;"></Center>
 
 ---
 layout: center
@@ -98,7 +98,7 @@ Turn a sequential data struture into a linearizable NUMA-aware concurrent data s
 
 # Operation Log
 
-<Center><img src="/figure/log.png" style="height: 80%;"></Center>
+<Center><img src="/figures/log.png" style="height: 80%;"></Center>
 
 ---
 
@@ -122,7 +122,7 @@ Turn a sequential data struture into a linearizable NUMA-aware concurrent data s
 
 # Example: Update (mutating)
 
-<Center><img src="/figure/flat-combining.png" style="height: 95%"></Center>
+<Center><img src="/figures/flat-combining.png" style="height: 95%"></Center>
 
 <!--
 图需要重画，分成每一步
@@ -275,31 +275,31 @@ layout: center
 
 # NR-FS Microbenchmark
 
-<Center><img src="/figure/fs-micro.png" style="height: 95%;"></Center>
+<Center><img src="/figures/fs-micro.png" style="height: 95%;"></Center>
 
 ---
 
 # NR-FS LevelDB
 
-<Center><img src="/figure/fs-leveldb.png" style="height: 70%;"></Center>
+<Center><img src="/figures/fs-leveldb.png" style="height: 70%;"></Center>
 
 ---
 
 # NR-vMem Page Insertion Throughput
 
-<Center><img src="/figure/vmem-throughput.png" style="height: 75%;"></Center>
+<Center><img src="/figures/vmem-throughput.png" style="height: 75%;"></Center>
 
 ---
 
 # NR-vMem Map Latency
 
-<Center><img src="/figure/vmem-map.png" style="width: 100%;"></Center>
+<Center><img src="/figures/vmem-map.png" style="width: 100%;"></Center>
 
 ---
 
 # NR-vMem Unmap Latency
 
-<Center><img src="/figure/vmem-unmap.png" style="height: 60%;"></Center>
+<Center><img src="/figures/vmem-unmap.png" style="height: 60%;"></Center>
 
 ---
 layout: center

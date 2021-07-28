@@ -1,8 +1,8 @@
 <template>
   <div class="slidev-layout cover">
     <div class="logo">
-      <img src="/logo/sjtu.png" />
-      <img src="/logo/ipads.png" />
+      <img src="/logos/sjtu.png" />
+      <img src="/logos/ipads.png" />
     </div>
     <div class="my-auto w-full">
       <slot />
