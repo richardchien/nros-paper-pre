@@ -69,7 +69,7 @@ layout: center
 
 # Overview
 
-<Center><img src="/figures/comparison.png" style="width: 100%;"></Center>
+<Center><img src="/figures/comparison.svg" style="width: 100%;"></Center>
 
 ---
 layout: center
@@ -98,7 +98,7 @@ Turn a sequential data struture into a linearizable NUMA-aware concurrent data s
 
 # Operation Log
 
-<Center><img src="/figures/log.png" style="height: 80%;"></Center>
+<Center><img src="/figures/log.svg" style="height: 80%;"></Center>
 
 ---
 
@@ -122,23 +122,25 @@ Turn a sequential data struture into a linearizable NUMA-aware concurrent data s
 
 # Example: Update (mutating)
 
-<Center><img src="/figures/flat-combining.png" style="height: 95%"></Center>
-
-<!--
-图需要重画，分成每一步
--->
+<Center><img src="/figures/eg-update-1.svg"></Center>
 
 ---
 
-# Example: Read (non-mutating)
+# Example: Update (mutating)
 
-<Center></Center>
+<Center><img src="/figures/eg-update-2.svg"></Center>
 
-<!--
-snapshot tail
-wait until a combiner update the replica past the observed tail
-or become the combiner to update
--->
+---
+
+# Example: Update (mutating)
+
+<Center><img src="/figures/eg-update-3.svg"></Center>
+
+---
+
+# Example: Update (mutating)
+
+<Center><img src="/figures/eg-update-4.svg"></Center>
 
 ---
 
@@ -170,7 +172,7 @@ impl Dispatch for NrHashMap {
 
 ---
 
-# Code Example: Replicate a HashMap (cont'd)
+# Code Example: Replicate a HashMap
 
 ```rust {all|1-2|4-5|7|9-10|all}
 let logsize = 2 * 1024 * 1024;
