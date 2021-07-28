@@ -35,10 +35,6 @@ layout: center
     - read-copy-update (RCU)
     - good performance but increased complexity
 
-<!--
-
--->
-
 ---
 
 # Background
@@ -329,7 +325,7 @@ layout: center
 
 - Relaxing consistency
 - Verifying correctness
-- Extending NrOS for disaggregated compute
+- Extending NrOS for compute clusters
 
 ---
 layout: center
