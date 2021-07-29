@@ -187,7 +187,6 @@ let r = replica1.execute_mut(WriteOp::Put(1, 1), tid1);
 
 # Problems with NR
 
-- One combiner per NUMA node (R/W lock)
 - Frequent mutating operations (e.g. FS)
     - mostly independent (commutative)
 - Limit scalability
@@ -283,7 +282,7 @@ layout: center
 
 ---
 
-# NR-vMem Page Insertion Throughput
+# NR-vMem Map Throughput
 
 <Center><img src="/figures/vmem-throughput.png" style="height: 75%;"></Center>
 
