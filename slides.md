@@ -1,6 +1,6 @@
 ---
-routerMode: 'hash'
-colorSchema: 'light'
+routerMode: hash
+colorSchema: light
 layout: cover
 ---
 
